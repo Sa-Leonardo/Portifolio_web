@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    background-color: #424769;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+header {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+    display:flex;
+}
+
+nav ul, nav a{
+    text-decoration: none;
+    list-style: none;
+    color: #efefef;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 7.48%;
+}
+
+h1, p{
+    text-align: center;
+}
+
+.logo {
+    padding: 16px;
+    width: 50%;
+}
+
+
+
+
+.apresentation{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.img-body{
+    width: 270px;
+    height: 350px;
+    border-radius: 10px;
+
+    background-color: #ffffff;
+    text-align: center;
+    border:2px solid #363636;
+    
+}
+
+.imagem{
+    border-bottom:2px solid black;
+    height: 50%;
+    width: auto;
+    background-image: url(../img/relogio.png);
+    background-size: 100% 100%;
+}
+
+.imagem1{
+    border-bottom:2px solid black ;
+    height: 50%;
+    width: auto;
+    background-image: url(../img/teladelogin.png);
+    background-size: 100% 100%;
+}
+
+.imagem2{
+    border-bottom:2px solid black ;
+    height: 50%;
+    width: auto;
+    background-image: url(../img/carro.png);
+    background-size: 100% 100%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #252323;
+    color: #ffffff;
+}
+
+footer a{
+    color: #ffffff;
+}
